@@ -3,7 +3,9 @@ document.getElementById('getText').addEventListener
 
 function getText() {
     fetch('sample.txt')
-    .then(response => console.log(response))
+    .then(function(res) {
+        console.log(res);
+    })
 }
 
 const test1 = new Promise((resolve, reject) => {
