@@ -9,7 +9,7 @@ function getText() {
 }
 
 const test1 = new Promise((resolve, reject) => {
-    resolve("Test")
+    resolve('Test')
 })
 
 Promise.all([
